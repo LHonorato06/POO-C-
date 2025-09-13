@@ -1,0 +1,14 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "wT01Qa+wS0I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\honor\\IdeaProjects\\ExemplosFundamentosDotnet\\ExemplosFundamentosDotnet.csproj",
+=======
+  "dgSpecHash": "a9G55dkCgwc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\honor\\IdeaProjects\\ExemploExplorando\\ExemploExplorando.csproj",
+>>>>>>> bd44fcc (Propriedades, métodos e construtores)
+  "expectedPackageFiles": [],
+  "logs": []
+}

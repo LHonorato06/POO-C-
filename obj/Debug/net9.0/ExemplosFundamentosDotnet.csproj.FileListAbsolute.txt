@@ -1,0 +1,14 @@
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\bin\Debug\net9.0\ExemplosFundamentosDotnet.exe
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\bin\Debug\net9.0\ExemplosFundamentosDotnet.deps.json
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\bin\Debug\net9.0\ExemplosFundamentosDotnet.runtimeconfig.json
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\bin\Debug\net9.0\ExemplosFundamentosDotnet.dll
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\bin\Debug\net9.0\ExemplosFundamentosDotnet.pdb
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\obj\Debug\net9.0\ExemplosFundamentosDotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\obj\Debug\net9.0\ExemplosFundamentosDotnet.AssemblyInfoInputs.cache
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\obj\Debug\net9.0\ExemplosFundamentosDotnet.AssemblyInfo.cs
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\obj\Debug\net9.0\ExemplosFundamentosDotnet.csproj.CoreCompileInputs.cache
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\obj\Debug\net9.0\ExemplosFundamentosDotnet.dll
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\obj\Debug\net9.0\refint\ExemplosFundamentosDotnet.dll
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\obj\Debug\net9.0\ExemplosFundamentosDotnet.pdb
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\obj\Debug\net9.0\ExemplosFundamentosDotnet.genruntimeconfig.cache
+C:\Users\honor\IdeaProjects\ExemplosFundamentosDotnet\obj\Debug\net9.0\ref\ExemplosFundamentosDotnet.dll
