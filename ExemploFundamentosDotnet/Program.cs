@@ -1,22 +1,113 @@
 ﻿using ExemplosFundamentosDotnet.Common.models;
-
-List<string> listaString = new List<string>();
-
-listaString.Add("SP");
-listaString.Add("PE");
-listaString.Add("MG");
-listaString.Add("RJ");
+using System.Data;
+using System.Globalization;
 
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+try
+{
 
-listaString.Add("SC");
+  string[] linhas = File.ReadAllLines("Arquivos/arquivosLeitura.txt");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+  foreach (string linha in linhas)
+  {
+    Console.WriteLine(linha);
+  }
+}
+catch (FileNotFoundException ex)
+{
+  Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo não encontrado. {ex.Message}");
+}
+catch (DirectoryNotFoundException ex)
+{
+  Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Caminho da pasta não encontrado. {ex.Message}");
+}
+catch (Exception ex)
+{
+  Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
+}
 
-listaString.Remove("MG");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string datastring = "2022-13-17 18:00";
+
+// bool sucesso = DateTime.TryParseExact(datastring, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+
+// if (sucesso)
+// {
+//   Console.WriteLine($"Conversão com sucesso! Data: {data}");
+// }
+// else
+// {
+//   Console.WriteLine($"{datastring} não é uma data válida");
+// }
+
+// DateTime data = DateTime.Parse("17/04/2022 18:00");
+
+// Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+
+// decimal valorMonetario = 1582.40M;
+
+// Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
+
+// double porcentagem = .3421;
+
+// Console.WriteLine(porcentagem.ToString("P"));
+
+// int numero = 123456;
+// Console.WriteLine(numero.ToString("##-##-##"));
+
+
+
+
+// List<string> listaString = new List<string>();
+
+// listaString.Add("SP");
+// listaString.Add("PE");
+// listaString.Add("MG");
+// listaString.Add("RJ");
+
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Add("SC");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Remove("MG");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 
 // Console.WriteLine("percorrendo o array com o FOR");
