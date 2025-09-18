@@ -2,29 +2,146 @@
 using System.Data;
 using System.Globalization;
 
+Dictionary<string, string> estados = new Dictionary<string, string>();
 
-try
-{
+estados.Add("SP", "São paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
 
-  string[] linhas = File.ReadAllLines("Arquivos/arquivosLeitura.txt");
+foreach (var item in estados)
+{
+  Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+estados.Remove("BA");
+estados["SP"] = "São paulo - valor alterado!";
 
-  foreach (string linha in linhas)
-  {
-    Console.WriteLine(linha);
-  }
-}
-catch (FileNotFoundException ex)
+string chave = "BA";
+Console.WriteLine($"Verificando o elemento: {chave}");
+
+if (estados.ContainsKey(chave))
 {
-  Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo não encontrado. {ex.Message}");
+  Console.WriteLine($"Valor existente: {chave}");
 }
-catch (DirectoryNotFoundException ex)
+else
 {
-  Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Caminho da pasta não encontrado. {ex.Message}");
+  Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
+
 }
-catch (Exception ex)
-{
-  Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Stack<int> pilha = new Stack<int>();
+
+// pilha.Push(4);
+// pilha.Push(6);
+// pilha.Push(8);
+// pilha.Push(10);
+
+// foreach (int item in pilha)
+// {
+//   Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento do topo:{pilha.Pop()} ");
+
+// pilha.Push(4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Queue<int> fila = new Queue<int>();
+
+// fila.Enqueue(2);
+// fila.Enqueue(4);
+// fila.Enqueue(6);
+// fila.Enqueue(8);
+
+// foreach (int item in fila)
+// {
+//   Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento: fila.Dequeue()");
+// fila.Enqueue(10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// try
+// {
+
+//   string[] linhas = File.ReadAllLines("Arquivos/arquivosLeitura.txt");
+
+//   foreach (string linha in linhas)
+//   {
+//     Console.WriteLine(linha);
+//   }
+// }
+// catch (FileNotFoundException ex)
+// {
+//   Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo não encontrado. {ex.Message}");
+// }
+// catch (DirectoryNotFoundException ex)
+// {
+//   Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Caminho da pasta não encontrado. {ex.Message}");
+// }
+// catch (Exception ex)
+// {
+//   Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
+// }
+// finally
+// {
+//   Console.WriteLine("chegou até aqui");
+// }
 
 
 
