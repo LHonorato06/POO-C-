@@ -13,19 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\honor\\IdeaProjects\\ExemplosFundamentosDotnet\\ExemplosFundamentosDotnet.csproj",
-      "projectName": "ExemplosFundamentosDotnet",
-      "projectPath": "C:\\Users\\honor\\IdeaProjects\\ExemplosFundamentosDotnet\\ExemplosFundamentosDotnet.csproj",
-      "packagesPath": "C:\\Users\\honor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\honor\\IdeaProjects\\ExemplosFundamentosDotnet\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\honor\\IdeaProjects\\ExemploExplorando\\ExemploExplorando.csproj",
       "projectName": "ExemploExplorando",
       "projectPath": "C:\\Users\\honor\\IdeaProjects\\ExemploExplorando\\ExemploExplorando.csproj",
       "packagesPath": "C:\\Users\\honor\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\honor\\IdeaProjects\\ExemploExplorando\\obj\\",
->>>>>>> bd44fcc (Propriedades, métodos e construtores)
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\honor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -76,5 +68,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\honor\\IdeaProjects\\ExemploExplorando\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+    }
+  ]
 }

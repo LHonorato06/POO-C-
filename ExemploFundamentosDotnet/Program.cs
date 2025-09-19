@@ -1,32 +1,141 @@
-﻿using ExemplosFundamentosDotnet.Common.models;
+﻿using ExemploExplorando.Models;
+using ExemplosFundamentosDotnet.Common.models;
 using System.Data;
 using System.Globalization;
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
 
-estados.Add("SP", "São paulo");
-estados.Add("BA", "Bahia");
-estados.Add("MG", "Minas Gerais");
+int numero = 110;
+bool ehPar = false;
 
-foreach (var item in estados)
-{
-  Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
-}
-estados.Remove("BA");
-estados["SP"] = "São paulo - valor alterado!";
+//IF ternário 
 
-string chave = "BA";
-Console.WriteLine($"Verificando o elemento: {chave}");
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
 
-if (estados.ContainsKey(chave))
-{
-  Console.WriteLine($"Valor existente: {chave}");
-}
-else
-{
-  Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("lucas", "assis");
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+//                           //usam o "_" quando não precisa usar uma determinada variavel quatidadeLinhas//
+// var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// if (sucesso)
+// {
+//   //Console.WriteLine("Quantidade linhas do arquivo:" + quatidadeLinhas);
+//   foreach (string linha in linhasArquivo)
+//   {
+//     Console.WriteLine(linha);
+//   }
+// }
+// else
+// {
+//   Console.WriteLine("Não foi possível ler o arquivo");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (int, string, string, decimal) tupla = (1, "lucas", "assis", 10.5M);
+// // ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "lucas", "assis", 10.5M);
+// // var outroExemploTuplaCreate = Tuple.Create(1, "lucas", "assis", 10.5M);
+
+//   Console.WriteLine($"id: {tupla.Item1}");
+//   Console.WriteLine($"Nome: {tupla.Item2}");
+//   Console.WriteLine($"Sobrenome: {tupla.Item3}");
+//   Console.WriteLine($"Altura: {tupla.Item4}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Dictionary<string, string> estados = new Dictionary<string, string>();
+
+// estados.Add("SP", "São paulo");
+// estados.Add("BA", "Bahia");
+// estados.Add("MG", "Minas Gerais");
+
+// foreach (var item in estados)
+// {
+//   Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+// estados.Remove("BA");
+// estados["SP"] = "São paulo - valor alterado!";
+
+// string chave = "BA";
+// Console.WriteLine($"Verificando o elemento: {chave}");
+
+// if (estados.ContainsKey(chave))
+// {
+//   Console.WriteLine($"Valor existente: {chave}");
+// }
+// else
+// {
+//   Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
+
+// }
 
 
 

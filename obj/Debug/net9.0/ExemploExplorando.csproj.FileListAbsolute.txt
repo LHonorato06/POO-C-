@@ -1,0 +1,5 @@
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.AssemblyInfo.cs
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.sourcelink.json
