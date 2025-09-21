@@ -1,18 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "a9G55dkCgwc=",
+  "dgSpecHash": "nse2ONXzXTs=",
   "success": true,
   "projectFilePath": "C:\\Users\\honor\\IdeaProjects\\ExemploExplorando\\ExemploExplorando.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file C:\\Users\\honor\\IdeaProjects\\ExemploExplorando\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\Users\\honor\\IdeaProjects\\ExemploExplorando\\ExemploExplorando.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\honor\\IdeaProjects\\ExemploExplorando\\ExemploExplorando.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\honor\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
 }

@@ -3,3 +3,16 @@ C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando
 C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.AssemblyInfo.cs
 C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.csproj.CoreCompileInputs.cache
 C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.sourcelink.json
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\Users\honor\IdeaProjects\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.exe
+C:\Users\honor\IdeaProjects\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.deps.json
+C:\Users\honor\IdeaProjects\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.runtimeconfig.json
+C:\Users\honor\IdeaProjects\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.dll
+C:\Users\honor\IdeaProjects\ExemploExplorando\bin\Debug\net9.0\ExemploExplorando.pdb
+C:\Users\honor\IdeaProjects\ExemploExplorando\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploE.B7F01285.Up2Date
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.dll
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\refint\ExemploExplorando.dll
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.pdb
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ExemploExplorando.genruntimeconfig.cache
+C:\Users\honor\IdeaProjects\ExemploExplorando\obj\Debug\net9.0\ref\ExemploExplorando.dll
